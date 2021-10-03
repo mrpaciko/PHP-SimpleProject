@@ -1,5 +1,5 @@
 <?php
-//Show Time
-$time = date("Y-m-d | H:i:s");
-echo $time;
+$token = "ABC";
+$key = md5($token);
+echo $key;
 ?>
