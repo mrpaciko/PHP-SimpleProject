@@ -1,5 +1,4 @@
 <?php
-$token = "ABC";
-$key = md5($token);
-echo $key;
+$leg10 = "".rand(000000000,9999999999);
+echo $leg10;
 ?>
