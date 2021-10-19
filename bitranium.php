@@ -226,6 +226,12 @@ $mm = json_decode($result,true);
 $mms = $mm['message'];
 echo "".$mms."\n";
 echo "\n";
+  
+  //AUTO SAVE ACCOUNT
+$file = fopen('akun.txt', 'a+');
+fwrite($file, "$email | $pass | $nmr\n");
+fclose($file);
+echo "\n";
 
 
 }
