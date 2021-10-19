@@ -17,11 +17,9 @@ $str = explode($end,$str[1]);
 return $str[0];
 }
 echo "================\n";
-echo "  AUTO REF BOT  \n";
+echo "  AUTO REF BOT UNLIMITED \n";
 echo "================\n";
-$jumlah = "10000";
-$i=1;
-while($i <= $jumlah){
+while(1){
  
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://www.random-name-generator.com/indonesia?country=id_ID');
@@ -238,5 +236,4 @@ else{
 
 
 
-$i++;
 }
